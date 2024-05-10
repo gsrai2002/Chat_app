@@ -44,7 +44,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-app-i5ss.onrender.com",
     credentials: true,
   },
 });
